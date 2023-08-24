@@ -92,7 +92,7 @@ function getStream() {
   if (window.stream) {
 	window.stream.getTracks().forEach(function (track) {
 		track.stop();
-		log("TRack stopping");
+		console.log("TRack stopping");
 	});
   }
 	
